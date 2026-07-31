@@ -1,15 +1,14 @@
-# OS
-Thumbs.db
-Desktop.ini
-.DS_Store
-
-# Editor
-*.swp
-*.swo
-*~
-.vscode/
+# IDE
 .idea/
+.vscode/
 
-# Temporary
+# 系统
+.DS_Store
+Thumbs.db
+
+# 临时文件
 *.tmp
-*.bak
+~$*
+
+# 本地工具数据（会话计划等）
+.zcode/
